@@ -1,0 +1,32 @@
+public class voiture{
+string mark,model,mat,couleur,motorisation;
+double vitesse;
+
+
+public void demarer(){
+system.out.println("j'ai demaree");
+}
+
+public void modifierC(string c){
+couleur=c;
+}
+public void accelerer(double v){
+vitesse=v;
+}
+public void init (string mark,string model,string coul,string mat ,string moto,double vitesse
+mark;
+model=model;
+couleur
+motorisation=moto;
+mat=mat;
+vitesse=vitesse;
+}
+
+
+public static void main(){
+voiture v1=new voiture ();
+v1.init("Mazda","CX5","rouge","dj26DK2","automatique",300);
+
+systheme.out.println("Marque :"+v1.mark);
+}
+}
